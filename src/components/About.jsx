@@ -15,6 +15,7 @@ const About = () => {
                 start: 'top center'
             }
         })
+        scrollTimeline
         .from(titleSplit.words, {
             opacity: 0,
             duration: 1,
